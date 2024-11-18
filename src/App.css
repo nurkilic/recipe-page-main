@@ -1,0 +1,119 @@
+#root {
+  font-family: var(--font-outfit);
+  /* max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center; */
+}
+
+h1 {
+  font-family: var(--font-young-serif);
+}
+
+h2 {
+  color: var(--Brown800);
+  font-size: 1.75rem;
+  font-family: var(--font-young-serif);
+}
+#ingredients li {
+  list-style: square;
+  list-style-position: inside;
+  padding-left: 0.5rem;
+  color: var(--Stone600);
+}
+
+#ingredients li::marker {
+  color: var(--Brown800);
+  font-size: small;
+}
+
+#preparation li {
+  list-style: disc;
+  list-style-position: inside;
+  color: var(--Stone600);
+  padding-left: 0.5rem;
+}
+#preparation li::marker {
+  color: var(--Rose800);
+  font-size: small;
+}
+
+tbody tr > td:first-child  {
+  font-size: 1rem;
+  color: var(--Stone600);
+  line-height: 1.5;
+}
+tbody tr td:last-child{
+  color:var(--Brown800);
+  font-weight: 600;
+  line-height: 1.5;
+}
+
+
+tbody tr:last-child {
+  border-bottom: none; 
+ 
+}
+
+tbody td {
+  padding: 0.75rem 0; 
+  border-bottom: 2px solid var(--Stone150);
+}
+
+tbody tr:last-child td {
+  border-bottom: none; 
+}
+
+
+
+#instructions li {
+  color: var(--Stone600);
+  /* padding-left: 0.5rem; */
+}
+#instructions li span {
+  color: var(--Rose800);
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+#instructions li {
+  padding-left: 0.5rem;
+}
+hr {
+  border-color: var(--Stone150);
+  border-width: 1px;
+}
+
+
+:root {
+  --White: hsl(0, 0%, 100%);
+  --Stone100: hsl(30, 54%, 90%);
+  --Stone150: hsl(30, 18%, 87%);
+  --Stone600: hsl(30, 10%, 34%);
+  --Stone900: hsl(24, 5%, 18%);
+  --Brown800: hsl(14, 45%, 36%);
+  --Rose800: hsl(332, 51%, 32%);
+  --Rose50: hsl(330, 100%, 98%);
+
+  --Font-size-p: 16px;
+  --font-outfit: "Outfit", sans-serif;
+  --font-young-serif: "Young Serif", serif;
+}
+
+.container-card {
+  background-color: var(--Stone100);
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  width: 100%;
+}
+
+/* ## Layout
+
+The designs were created to the following widths:
+
+- Mobile: 375px
+- Desktop: 1440px */
+
+/* ## Colors */
